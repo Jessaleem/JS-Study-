@@ -1,3 +1,4 @@
-console.log("Mi primera cadena de texto");
-console.log('la edad es ' + (14 + 20 + 40))
-console.log('Mi programa de JavaScript');
+let div = document.querySelector("div");
+div.addEventListener('click', function() {
+  this.style.background = 'yellow';
+})
